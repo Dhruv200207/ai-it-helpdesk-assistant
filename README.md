@@ -28,6 +28,10 @@ An AI-powered IT troubleshooting assistant built using Python, Streamlit, LangCh
 - SQLite
 - SymSpellPy
 - RapidFuzz
+ 
+ 📸 Screenshots
+
+Chat Interface
 
 ## Installation
 
@@ -87,6 +91,12 @@ The project includes troubleshooting documents for:
 
 Additional supported documents can be added to the knowledge base.
 
+🔐 Security
+
+API keys are stored in environment variables or Streamlit Cloud secrets.
+
+Sensitive configuration files should not be committed to GitHub.
+
 ## Author
 
 **Dhruv Sharma**
@@ -95,4 +105,4 @@ GitHub: https://github.com/Dhruv200207
 
 ## License
 
-No license has been added yet.
+This project is currently available without a specified open-source license. Contact the author for reuse permissions.
