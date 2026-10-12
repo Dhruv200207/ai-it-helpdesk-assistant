@@ -1,4 +1,6 @@
 # AI IT Helpdesk Assistant
+ 🚀 Live Demo: Try the AI IT Helpdesk Assistant
+  https://ai-it-appdesk-assistant-xiaaylh9zrlgjwa8sawds2.streamlit.app/
 
 An AI-powered IT troubleshooting assistant built using Python, Streamlit, LangChain, Groq LLM, FAISS, and Retrieval-Augmented Generation (RAG).
 
