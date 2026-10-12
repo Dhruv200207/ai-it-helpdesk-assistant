@@ -1,0 +1,21 @@
+
+Topic: SQL troubleshooting
+
+To retrieve records:
+SELECT * FROM employees;
+
+To filter records:
+SELECT * FROM employees WHERE department = 'IT';
+
+To check duplicate values:
+SELECT email, COUNT(*)
+FROM employees
+GROUP BY email
+HAVING COUNT(*) > 1;
+
+For slow queries, inspect the query execution plan,
+review indexes and check whether filters are
+being applied efficiently.
+
+Always verify the database environment before
+running UPDATE or DELETE statements.

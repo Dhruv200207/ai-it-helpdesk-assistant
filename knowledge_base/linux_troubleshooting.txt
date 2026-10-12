@@ -1,0 +1,44 @@
+
+Topic: Linux disk space troubleshooting
+
+To check filesystem disk usage, run:
+df -h
+
+To check the size of directories, run:
+du -sh /path/to/directory
+
+To view memory usage, run:
+free -h
+
+If a filesystem is full, identify large files and
+directories before taking action. Do not delete
+system files without authorization.
+
+For permission errors, check file ownership and
+permissions using ls -l. Make changes only with
+appropriate authorization.
+
+# Linux Basics
+
+Linux is an open-source, Unix-like operating system kernel. Linux-based operating systems, also called Linux distributions, include Ubuntu, Debian, Fedora, and Red Hat Enterprise Linux (RHEL).
+
+Linux is widely used in servers, cloud computing, software development, networking, and cybersecurity.
+
+## Basic Linux Commands
+
+1. `pwd` - Shows the current working directory.
+2. `ls` - Lists files and directories.
+3. `cd` - Changes the current directory.
+4. `mkdir` - Creates a directory.
+5. `cat` - Displays file contents.
+6. `df -h` - Shows filesystem disk usage in a human-readable format.
+7. `free -h` - Displays memory usage.
+8. `ps` - Displays information about running processes.
+
+## Linux Troubleshooting
+
+To check filesystem disk usage, run `df -h`.
+
+To check memory usage, run `free -h`.
+
+To check the current directory, run `pwd`.

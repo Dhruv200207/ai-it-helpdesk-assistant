@@ -1,0 +1,19 @@
+
+Topic: SSH connection troubleshooting
+
+To test SSH connectivity:
+ssh -v user@hostname
+
+To check whether SSH keys exist:
+ls -la ~/.ssh
+
+To check the SSH service on a Linux server:
+sudo systemctl status sshd
+
+Common causes of SSH connection failures include
+incorrect usernames, wrong key paths, file
+permission issues, firewall rules and SSH service
+problems.
+
+Never share private SSH keys. Confirm authorization
+before changing server configurations.
